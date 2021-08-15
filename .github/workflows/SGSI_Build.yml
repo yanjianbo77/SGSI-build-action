@@ -7,10 +7,10 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: 'https://dl.google.com/developers/android/sc/images/ota/redfin-ota-spp2.210219.008-3d61e529.zip'
+  ROM_URL: 'https://ip1351844391.mobgslb.tbcache.com/Firmware/Flyme/meizu18_Pro/9.0.1.2/cn/20210714010110/8402bdc8/update.zip?ali_redirect_domain=firmware.meizu.com&ali_redirect_ex_ftag=198ba1492ec4e8b7d265761815f816a31d17e95e301c0459&ali_redirect_ex_tmining_ts=1628988804&ali_redirect_ex_tmining_expire=3600'
   ZIP_NAME: 'update.zip'
   OS_TYPE: 'Generic'
-  BUILD_TYPE: 'ab'
+  BUILD_TYPE: 'a-only'
   REPACK_NAME: 'SGSI.zip'
   VERSION: '12'
   upload_action-gh-release: 'true'
